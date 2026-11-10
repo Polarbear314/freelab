@@ -1,0 +1,11 @@
+# FreeLAB — clean, ChatGPT/Claude-style light theme
+[theme]
+base = "light"
+primaryColor = "#D97757"                 # warm coral accent (buttons, sliders, focus)
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F3EE"     # sidebar / secondary surfaces
+textColor = "#2B2B28"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"                   # hide the dev toolbar for a cleaner look
