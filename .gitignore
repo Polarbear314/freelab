@@ -1,0 +1,18 @@
+# Secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Personal data: chats, uploaded documents, saved state, eval caches
+FreeLAB-Vault/
+freelab_data/
+eval_results/cache/
+_rmtest/
+
+# OS
+.DS_Store
