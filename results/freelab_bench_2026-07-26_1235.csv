@@ -1,0 +1,7 @@
+test,question,method,correct,seconds,big_model_tokens,path,extra
+doc,What is the maximum rated voltage for the Orion relay module?,baseline,False,14.001243083039299,,,in_tok=69718
+doc,What is the new launch date for Project Falcon?,baseline,False,13.814281875034794,,,in_tok=69718
+doc,What is the emergency shutdown passphrase for the west facility?,baseline,False,16.00556341704214,,,in_tok=69718
+doc,What is the maximum rated voltage for the Orion relay module?,freelab,True,14.210470792022534,,DRAFT-KEPT,"in_tok=1149,compressed=99%"
+doc,What is the new launch date for Project Falcon?,freelab,True,16.08142691705143,,ESCALATED,"in_tok=1149,compressed=99%"
+doc,What is the emergency shutdown passphrase for the west facility?,freelab,True,11.78436575003434,,ESCALATED,"in_tok=1149,compressed=99%"

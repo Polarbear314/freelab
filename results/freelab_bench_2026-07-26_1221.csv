@@ -1,0 +1,21 @@
+test,question,method,correct,seconds,big_model_tokens,path,extra
+chat,How many times does the letter 'r' appear in the word 'strawberry'?,baseline,True,6.595673582982272,99,,
+chat,A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?,baseline,True,10.52294808300212,174,,
+chat,"Which number is larger, 9.11 or 9.9?",baseline,True,7.057479374983814,117,,
+chat,A farmer has 17 sheep. All but 9 die. How many sheep are left?,baseline,True,4.274548124987632,64,,
+chat,What is 47 multiplied by 53?,baseline,True,11.404218250012491,193,,
+chat,"If today is Wednesday, what day of the week will it be 100 days from now?",baseline,True,10.257669667014852,170,,
+chat,I have 3 apples. I eat 2 bananas. How many apples do I have left?,baseline,True,2.3585289170150645,33,,
+chat,How many times does the letter 'r' appear in the word 'strawberry'?,freelab,True,12.650434125040192,141,ESCALATED,judge=0
+chat,A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?,freelab,True,14.420429167046677,169,ESCALATED,judge=0
+chat,"Which number is larger, 9.11 or 9.9?",freelab,True,3.3135135830380023,0,DRAFT-KEPT,judge=100
+chat,A farmer has 17 sheep. All but 9 die. How many sheep are left?,freelab,True,7.7416459590313025,63,ESCALATED,judge=0
+chat,What is 47 multiplied by 53?,freelab,True,3.3226034170365892,0,DRAFT-KEPT,judge=100
+chat,"If today is Wednesday, what day of the week will it be 100 days from now?",freelab,True,12.704192417033482,120,ESCALATED,judge=0
+chat,I have 3 apples. I eat 2 bananas. How many apples do I have left?,freelab,True,4.776714499981608,33,ESCALATED,judge=0
+doc,What is the maximum rated voltage for the Orion relay module?,baseline,False,14.28641504200641,,,in_tok=27943
+doc,What is the new launch date for Project Falcon?,baseline,False,14.087459708971437,,,in_tok=27943
+doc,What is the emergency shutdown passphrase for the west facility?,baseline,False,16.412584625009913,,,in_tok=27943
+doc,What is the maximum rated voltage for the Orion relay module?,freelab,True,8.32760658301413,,DRAFT-KEPT,"in_tok=1149,compressed=96%"
+doc,What is the new launch date for Project Falcon?,freelab,True,12.205908333999105,,ESCALATED,"in_tok=1149,compressed=96%"
+doc,What is the emergency shutdown passphrase for the west facility?,freelab,True,7.7289357500267215,,ESCALATED,"in_tok=1149,compressed=96%"
