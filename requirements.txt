@@ -1,0 +1,25 @@
+# Core (CLI + pipeline). Models run in Ollama: https://ollama.com
+# (the core pipeline uses only the Python standard library)
+
+# Harness front-ends (pick one or both)
+streamlit
+gradio
+fastapi
+uvicorn
+python-multipart
+
+# Document ingest
+pypdf
+python-docx
+# Optional OCR for scanned PDFs (also needs: brew install tesseract)
+pymupdf
+pytesseract
+pillow
+
+# Optional web lookup
+ddgs
+
+# Eval suite
+datasets
+plotly
+networkx
